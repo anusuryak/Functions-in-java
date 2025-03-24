@@ -1,1 +1,40 @@
+package Functions;
+//ARGUMENTS WITH RETURN TYPE
+import java.util.Random;
+public class Type3 {
+	    int values(int n){
+		int i,f=1;
+		for(i=1;i<=n;i++) 
+		{
+			f=f*i;
+	    }
+		return (f);
+	    }
+	    // NO ARGUMENTS WITH RETURN TYPE
+	    double mypi()
+	    {
+	    	double x=22.0;
+	    	return x;
+	    }
+	    public static void main(String[]args) {
+	    	Type3 t3=new Type3();
+	    	System.out.println("The Type is:"+new Type3().values(7));
+	    	System.out.println("The Type is:"+new Type3().values(9));
+	    	System.out.println("The Type is:"+t3.values(4));
+	    	
+	    	
+	    	System.out.println("my pi value 1:"+new Type3().mypi());
+	    	
+	    	Random x= new Random();
+	    	
+	    	System.out.println("Rand value:"+x.nextInt()%10);
+	    	System.out.println("Rand value:"+Math.abs(x.nextInt()%50));
+	    	System.out.println("Rand value:"+Math.abs(new Random().nextInt()%100));
+	    }
+	    	
+	    	
+	    }
+				
+				
+						
 
