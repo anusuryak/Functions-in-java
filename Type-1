@@ -1,1 +1,19 @@
+package Functions;
+
+public class Type1 {
+	static void books() {
+		System.out.println("java");
+		System.out.println("c++");
+		System.out.println("c");
+	}
+	void colors() {
+		System.out.println("Green");
+		System.out.println("red");
+	}
+     public static void main(String []args) {
+    	 Type1 t1=new Type1();
+    	 books();
+    	 t1.colors();
+     }
+}
 
