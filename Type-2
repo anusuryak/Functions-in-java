@@ -1,1 +1,19 @@
+package Functions;
 
+public class Type2 {
+	static void books(int n,String name) {
+		for(int i=0;i<=n;i++) {
+			System.out.println(i+"."+name);
+		}
+		
+	}
+		public static void main(String[]args) {
+			Type2 t2=new Type2();
+			books(5,"java stack java");
+			System.out.println(Math.pow(2, 5));
+		}
+		
+		}
+
+
+		
